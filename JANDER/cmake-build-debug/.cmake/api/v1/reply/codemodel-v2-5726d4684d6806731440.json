@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "programas",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "expressoes_aritmeticas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-expressoes_aritmeticas-Debug-ae2d59f09caa7a867a08.json",
+					"name" : "expressoes_aritmeticas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-97ea384ff0611efc7128.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "media::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-media-Debug-8287edf31ff69cab692b.json",
+					"name" : "media",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tipos_de_dados::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tipos_de_dados-Debug-84e2c7dd12e59ae51762.json",
+					"name" : "tipos_de_dados",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug",
+		"source" : "/home/jander/graduacao/disciplinas/cap-2025-1/programas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

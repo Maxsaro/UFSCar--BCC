@@ -1,0 +1,6 @@
+/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug/CMakeFiles/main.dir
+/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug/CMakeFiles/tipos_de_dados.dir
+/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug/CMakeFiles/media.dir
+/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug/CMakeFiles/expressoes_aritmeticas.dir
+/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jander/graduacao/disciplinas/cap-2025-1/programas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
