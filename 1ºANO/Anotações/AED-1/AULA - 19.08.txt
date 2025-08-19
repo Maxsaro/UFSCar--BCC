@@ -1,0 +1,57 @@
+Complexidade de Algoritmos
+
+    Como medir a eficiência de um algoritmo ?
+        Duas Variáveis:
+            Tempo (-) + complicado
+            Espaço (-) (memória) + simples
+
+    Porque não medir o tempo de execução ?
+        Depende de fatores externos ao algoritmo (Hardware e Software)
+
+    Objetivo:
+        Contar o # de atribuições em um algoritmo
+            Duas hipóteses:
+                Cada atribuição executa em O(1)
+                Função T(n) deve retornar o # de atribuições quando problema possui tamanho "n"
+        
+    Exemplo:
+        Qual a complexidade do seguinte algoritmo ?
+            sum_of_n(n){
+                soma = 0   // Equivale a 1 atribuição
+                for i = 1 to n  
+                    soma += i  // Equivale a um Somatório de 1 para n
+                return soma
+            }
+    
+        R: 
+            = T(n) = Somatório de 1 (n vezes) + 1 = 
+            = T(n) = n + 1
+
+Notação Big O
+
+    Definição:
+        Seja f(n) uma função p / n >= 0 tal que para c , m > 0 tem-se:
+            T(n) <= cf(n)
+        Então, dizemos que 
+            T(n) é O(f(n))
+
+    Exemplo:
+        Qual a complexidade do seguinte algoritmo ?
+            sum_of_matrix(m, n){
+                soma = 0  //Equivale a 1
+                for i = 1 to n{
+                    soma_linha = 0      //Equivale a n
+                    for j = 1 to n     
+                        soma_linha += m[i][j]       //Equivale ao somatorio de (1 + n + 1) para n
+                soma += soma_linha      //Equivale a 1
+                }
+                return soma 
+            }
+
+        R: 
+            = T(n) = Somatorio de (1 + n + 1) + 1 = 
+            = T(n) = Somatorio de 1 para n + Somatorio de n para n + Somatorio de 1 para n + 1 =
+            = T(n) = n² + 2n + 1
+
+            Big O = O(n²)
+         
